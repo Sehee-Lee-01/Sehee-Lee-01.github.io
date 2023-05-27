@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+
+section {
+  justify-content: center;
+  align-items: center;
+  border: #c3c3c3 2px solid;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;
+}
