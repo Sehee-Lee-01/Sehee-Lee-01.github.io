@@ -1,2 +1,2 @@
 # Sehee-Lee-01.github.io
-My Portfolio
+🪪 Making My Resume & Portfolio Project by using HTML, CSS, Javascript.
