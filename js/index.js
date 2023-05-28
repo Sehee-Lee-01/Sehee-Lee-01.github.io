@@ -76,9 +76,12 @@ async function showAward() {
         li.innerHTML = `
             <div class="award_card">
                 <h3>${item.name}</h3>
-                <p>${item.award}</p>
-                <p>${item.date}</p>
-                <p>${item.agency}</p>
+                <br/>
+                <ul>
+                    <li><b>수상</b>${item.award}</li>
+                    <li><b>날짜</b>${item.date}</li>
+                    <li><b>기관</b>${item.agency}</li>
+                </ul>
             </div>
         `;
         list_ul.appendChild(li);
@@ -93,10 +96,13 @@ async function showActivity() {
         const li = document.createElement("li");
         li.innerHTML = `
             <div class="activity_card">
-                <h3>${item.name}</h3>
-                <p>${item.agency}</p>
-                <p>${item.date}</p>
-                <p>${item.work}</p>
+            <h3>${item.name}</h3>
+            <br/>
+            <ul>
+                <li><b>소속</b>${item.agency}</li>
+                <li><b>기간</b>${item.date}</li>
+                <li><b>내용</b>${item.work}</li>
+            </ul>
             </div>
         `;
         list_ul.appendChild(li);
@@ -112,8 +118,11 @@ async function showCertificate() {
         li.innerHTML = `
             <div class="certificate_card">
                 <h3>${item.name}</h3>
-                <p>${item.date}</p>
-                <p>${item.agency}</p>
+                <br/>
+                <ul>
+                    <li><b>날짜</b>${item.date}</li>
+                    <li><b>기관</b>${item.agency}</li>
+                </ul>
             </div>
         `;
         list_ul.appendChild(li);
@@ -129,8 +138,11 @@ async function showEducation() {
         li.innerHTML = `
             <div class="education_card">
                 <h3>${item.name}</h3>
-                <p>${item.date}</p>
-                <p>${item.major}</p>
+                <br/>
+                <ul>
+                    <li><b>기간</b>${item.date}</li>
+                    <li><b>학위</b>${item.major}</li>
+                </ul>
             </div>
         `;
         list_ul.appendChild(li);
