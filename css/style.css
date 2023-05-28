@@ -59,5 +59,7 @@ h3,b {
 }
 
 #skill b {
+  display: inline-block;
+  width: 120px;
   margin-right: 10px;
 }
