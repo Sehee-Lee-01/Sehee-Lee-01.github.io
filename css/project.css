@@ -1,0 +1,22 @@
+#project_list > li {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #c3c3c3;
+}
+#img_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#project_list img {
+    margin: 20px auto 5px ;
+    width: 50%;
+    border: 1px solid #c3c3c3;
+    border-radius: 10px;
+}
+
+#project_list li h3 {
+    margin: 0px 0px 20px 0px ;
+}
