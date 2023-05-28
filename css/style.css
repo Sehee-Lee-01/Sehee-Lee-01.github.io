@@ -57,3 +57,7 @@ h3,b {
   padding: 5px;
   border-radius: 50%;
 }
+
+#skill b {
+  margin-right: 10px;
+}

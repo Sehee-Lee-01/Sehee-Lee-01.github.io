@@ -52,15 +52,15 @@ async function showProject() {
                 <div id="img_box">
                     <img src=${item.thumbnail} alt=${item.name}>
                 </div>
-                <ul>
+                <ul class="project_info">
                     <br>
-                    <li id="${name}_date">⏰${item.date}</li>
-                    <li id="${name}_scale">🗣️ ${item.scale}</li>
-                    <li id="${name}_role">👩‍💻 ${item.role}</li>
-                    <li id="${name}_keyword">🧩 ${item.keyword}</li>
-                    <li id="${name}_work">🧾 ${item.work}</li>
-                    <li id="${name}_result">🎖️ ${item.result}</li>
-                    <a id="${name}_url" href = ${item.url}>🔗 ${item.url}</a>
+                    <li><b>기간</b>${item.date}</li>
+                    <li><b>규모</b> ${item.scale}</li>
+                    <li><b>역할</b> ${item.role}</li>
+                    <li><b>스택</b> ${item.keyword}</li>
+                    <li><b>수행</b> ${item.work}</li>
+                    <li><b>성과</b> ${item.result}</li>
+                    <li><b>Github</b> <a href = ${item.url}>${item.url}</a></li>
                 </ul>
             </div>
         `;
@@ -98,7 +98,6 @@ async function showActivity() {
                 <p>${item.agency}</p>
                 <p>${item.date}</p>
                 <p>${item.work}</p>
-                <p>${item.keyword}</p>
             </div>
         `;
         list_ul.appendChild(li);
