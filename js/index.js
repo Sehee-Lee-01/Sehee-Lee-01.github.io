@@ -58,7 +58,6 @@ async function showProject() {
                     <li><b>규모</b> ${item.scale}</li>
                     <li><b>역할</b> ${item.role}</li>
                     <li><b>스택</b> ${item.keyword}</li>
-                    <li><b>수행</b> ${item.work}</li>
                     <li><b>성과</b> ${item.result}</li>
                     <li><b>Github</b> <a href = ${item.url}>${item.url}</a></li>
                 </ul>
