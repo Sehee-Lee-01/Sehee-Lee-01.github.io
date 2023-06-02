@@ -49,9 +49,6 @@ async function showProject() {
             <div class="project_card">
                 <h3>${item.name}</h3>
                 <p>${item.summary}</p>
-                <div id="img_box">
-                    <img src=${item.thumbnail} alt=${item.name}>
-                </div>
                 <ul class="project_info">
                     <br>
                     <li><b>기간</b>${item.date}</li>
