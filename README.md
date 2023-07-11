@@ -37,3 +37,6 @@ Uncaught SyntaxError: Cannot use import statement outside a module (at indexjs:1
 ```
 
 https://junior-datalist.tistory.com/193
+
+https://noogoonaa.tistory.com/62
+https://velog.io/@realsong/VS-Delete-prettierprettier-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95
