@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# Sehee-Lee-01.github.io
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🪪 Making My Resume & Portfolio Project by using HTML, CSS, Javascript.
 
-## Available Scripts
+## 개선 사항
 
-In the project directory, you can run:
+### 1. HTML/CSS/JS 사용에서 React/Typescript 사용
 
-### `npm start`
+- 반복되는 코드가 많아지고 HTML 문서의 길이가 너무 길었다.
+- 리엑트로는 몇 번 만에 수정할 수 있는 것을 여러번 일일이 수정해야했다.
+- 유지보수 및 새로운 페이지 생성 등을 위해서 리엑트를 사용했다.
+- JS 언어의 단점을 보완하고 디버깅을 좀 더 확실히 하고자 TS를 사용했다.
+- 참고
+  - [React Github Pages를 이용해 나만의 이력서 페이지 만들기](https://velog.io/@junghyeonsu/React-Github-Pages%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EB%82%98%EB%A7%8C%EC%9D%98-%EC%9D%B4%EB%A0%A5%EC%84%9C-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0-pm1t1a9a)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 트러블 슈팅
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. 로컬의 json file을 불러오기 위해 node.js의 fs 모듈 사용
 
-### `npm test`
+```shell
+Uncaught SyntaxError: Cannot use import statement outside a module (at indexjs:1:1)
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 해결방안: web에서 제공하는 fetch api 사용
 
-### `npm run build`
+```
+  const dataBuffer  = fs.readFileSync(`data/${this.dataName}.json`);
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 참고 링크
+  - <https://namhandong.tistory.com/99>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. 참조링크 상대 경로
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+  fetch(`js/data/${name}.json`)
+```
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://junior-datalist.tistory.com/193
