@@ -2,6 +2,13 @@ import React from 'react';
 import './style.css';
 
 function Navbar() {
+  function downloadPDF() {
+    const link = document.createElement('a');
+    link.href = '/Resume.pdf'; // public
+    link.download = 'Resume-temp.pdf';
+    link.dispatchEvent(new MouseEvent('click'));
+  }
+
   return (
     <div className="navbar">
       <ul>
@@ -24,7 +31,7 @@ function Navbar() {
           <a href="#education">Educations</a>
         </li>
       </ul>
-      <button className="pdf" type="button">
+      <button onClick={downloadPDF} className="pdf" type="button">
         PDF
       </button>
     </div>
