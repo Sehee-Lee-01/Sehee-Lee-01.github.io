@@ -22,7 +22,7 @@ function ActivityCard({ activityProps }: activityProps) {
         {agency}
       </p>
       <b>활동</b>
-      <ul className="work-list mul-line-list">{workList}</ul>
+      <ul className="mul-line-list">{workList}</ul>
     </div>
   );
 }

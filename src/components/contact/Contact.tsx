@@ -22,7 +22,8 @@ function Contact() {
           <h1>이 세희 (Sehee Lee)</h1>
           <p id="introduce">
             <b>실시간 데이터</b>를 효율적으로 처리하는 <b>백엔드 개발자</b>가
-            되고 싶습니다. 사회 문제를 해결하는 개발자를 꿈꾸고 있습니다.
+            되고 싶습니다. <br />
+            사회 문제를 해결하는 개발자를 꿈꾸고 있습니다.
           </p>
           <ul className="contact-list card-list">{infoList}</ul>
         </div>

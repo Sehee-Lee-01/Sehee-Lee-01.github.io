@@ -10,7 +10,7 @@
 
 div#img-box {
     display: inline-block;
-    margin: 20px;
+    margin: 30px;
 }
 
 img#my-img {
@@ -24,7 +24,7 @@ div#info-box {
     top: -20px;
     display: inline-block;
     margin-left: 10px;
-    width: 520px;
+    width: 500px;
 }
 
 div#info-box h1 {

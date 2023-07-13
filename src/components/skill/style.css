@@ -1,0 +1,11 @@
+.skills {
+    margin-bottom: 20px;
+}
+
+.skills>h2 {
+    margin-bottom: 20px;
+}
+
+.skills>.inline-card {
+    list-style: none;
+}

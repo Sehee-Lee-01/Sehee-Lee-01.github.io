@@ -40,10 +40,10 @@ function ProjectCard({ projectProps }: ProjectCardProps) {
         <b>기술</b>
         <ul className="keyword-list card-list">{keywordList}</ul>
       </div>
-      <b>역할</b>
-      <ul className="role-list mul-line-list">{roleList}</ul>
+      <b>경험</b>
+      <ul className="mul-line-list">{roleList}</ul>
       <b>개선</b>
-      <ul className="trouble-list mul-line-list">{troubleList}</ul>
+      <ul className="mul-line-list">{troubleList}</ul>
       <p>
         <b>성과</b>
         {result}

@@ -103,6 +103,7 @@ p>b {
     text-decoration: none;
 }
 
+
 .inline-list>li {
     list-style: none;
     margin: 20px 0;
@@ -152,6 +153,8 @@ p>b {
 .mul-line-list>li {
     list-style-position: inside;
     list-style-type: square;
+    text-indent: -20px;
+    margin: 11px 0;
 
 }
 
@@ -166,8 +169,8 @@ p>b {
     display: inline-block;
     list-style: none;
     background-color: aliceblue;
-    color: royalblue;
-    border: solid 1px #6495ed;
+    color: dodgerblue;
+    border: solid 1px dodgerblue;
     border-radius: 5px;
     padding: 5px;
     margin: 2px;
@@ -175,7 +178,7 @@ p>b {
 
 .card-list>li:hover {
     box-shadow: 0 0 5px #aaa;
-    background-color: cornflowerblue;
+    background-color: dodgerblue;
     color: white;
 }
 
