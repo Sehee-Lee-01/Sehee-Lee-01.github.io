@@ -1,38 +1,209 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 500;
+    /* font-style: normal; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: 'TheJamsil2Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil2Light.woff2') format('woff2');
+    font-weight: 100;
+    /* font-style: normal; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: TheJamsil2Light, sans-serif;
+    color: darkslategrey;
 }
 
-.App-link {
-  color: #61dafb;
+html {
+    background-color: aliceblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#app-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: #6495ed;
+    box-shadow: 0 0 10px #aaa;
+    z-index: 10;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+    height: 100%;
+}
+
+.navbar li:hover {
+    background-color: aliceblue;
+}
+
+
+.navbar li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li:hover>a {
+
+    color: dodgerblue;
+}
+
+
+#app-body {
+    display: block;
+    margin: 30px auto;
+    padding: 20px;
+    padding-top: 50px;
+    width: 800px;
+    border-radius: 50px;
+}
+
+.bookmark {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+    height: 1px;
+}
+
+
+b {
+    color: cornflowerblue;
+}
+
+
+h1,
+h2 {
+    color: darkblue;
+    display: block;
+    font-family: yg-jalnan, sans-serif;
+    font-weight: 100;
+}
+
+h1,
+h3 {
+    color: dodgerblue;
+    margin: 0px 20px 10px 0px;
+}
+
+h2 {
+    margin: 0px 10px;
+}
+
+h3 {
+    font-family: TheJamsil5Bold, sans-serif;
+}
+
+div>b,
+p>b {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin: 5px 0;
+}
+
+.inline>a {
+    text-decoration: none;
+}
+
+.inline-list>li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.inline-card {
+    background-color: white;
+    border: solid 2px #6495ed;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.mini-list {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.mini-list>li {
+    display: inline-block;
+    list-style: none;
+    margin: 3px 2px 3px 2px;
+}
+
+
+.mini-card {
+    background-color: white;
+    width: 350px;
+    height: 90px;
+    border: solid 2px #6495ed;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: start;
+}
+
+.inline-card:hover,
+.mini-card:hover {
+    box-shadow: 0 0 5px #aaa;
+}
+
+.mul-line-list {
+    margin: 0px 0px 10px 20px;
+}
+
+.mul-line-list>li {
+    list-style-position: inside;
+    list-style-type: square;
+
+}
+
+.mul-line-list>li::marker {
+    color: #6495ed;
+    font-weight: bold;
+
+}
+
+
+.card-list>li {
+    display: inline-block;
+    list-style: none;
+    background-color: aliceblue;
+    color: royalblue;
+    border: solid 1px #6495ed;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.card-list>li:hover {
+    box-shadow: 0 0 5px #aaa;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.card-list>li>a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.card-list>li:hover>a {
+    color: white;
 }

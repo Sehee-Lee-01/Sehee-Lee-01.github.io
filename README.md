@@ -40,3 +40,6 @@ https://junior-datalist.tistory.com/193
 
 https://noogoonaa.tistory.com/62
 https://velog.io/@realsong/VS-Delete-prettierprettier-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95
+https://velog.io/@ahsy92/TypeScript-React-TypeScript-Props-type%EC%A0%95%EC%9D%98-%ED%95%98%EA%B8%B0
+https://velog.io/@eojine94/map-%ED%95%A8%EC%88%98-%EC%A0%81%EC%9A%A9%EC%8B%9C-key-props%EB%A5%BC-%EB%B6%80%EC%97%AC%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0
+https://velog.io/@shin6403/Git-git-%EC%BB%A4%EB%B0%8B-%EC%BB%A8%EB%B2%A4%EC%85%98-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0

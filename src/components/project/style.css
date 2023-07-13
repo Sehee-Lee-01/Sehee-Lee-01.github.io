@@ -1,0 +1,20 @@
+.project-card>h3 {
+    display: inline-block;
+}
+
+.project-card>a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.project-card>a:hover {
+    color: #6495ed;
+}
+
+.project-summary {
+    margin-bottom: 20px;
+}
+
+.keyword-list {
+    margin: 5px 0px 10px 20px;
+}

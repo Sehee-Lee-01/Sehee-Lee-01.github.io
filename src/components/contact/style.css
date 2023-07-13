@@ -1,0 +1,36 @@
+.contact {
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#introduce>b {
+    display: inline;
+}
+
+div#img-box {
+    display: inline-block;
+    margin: 20px;
+}
+
+img#my-img {
+    height: 200px;
+    border-radius: 50%;
+    border: solid 5px cornflowerblue;
+}
+
+div#info-box {
+    position: relative;
+    top: -20px;
+    display: inline-block;
+    margin-left: 10px;
+    width: 520px;
+}
+
+div#info-box h1 {
+    margin: 0px 0px 10px 0px;
+}
+
+.contact-list {
+    margin-top: 20px;
+}
