@@ -6,7 +6,7 @@ import ProjectDetail from './ProjectDetail';
 const { useState } = React;
 
 function Projects() {
-  const [visibleSum, setVisibleSum] = useState(false);
+  const [visibleSum, setVisibleSum] = useState(true);
   const sum = '🔎 세부 정보 보기';
   const detail = '🗺️ 요약해서 보기';
   return (
