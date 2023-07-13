@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css';
-import ProjectCard from 'components/project/ProjectCard';
 import myImage from '../../assets/images/profile.png';
 import InfoJSON from '../../assets/json/contact.json';
 
@@ -25,7 +24,7 @@ function Contact() {
             되고 싶습니다. <br />
             사회 문제를 해결하는 개발자를 꿈꾸고 있습니다.
           </p>
-          <ul className="contact-list card-list">{infoList}</ul>
+          <ul className="contact-list">{infoList}</ul>
         </div>
       </div>
     </>

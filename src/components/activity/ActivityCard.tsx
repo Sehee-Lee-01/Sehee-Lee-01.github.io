@@ -12,16 +12,9 @@ function ActivityCard({ activityProps }: activityProps) {
 
   return (
     <div className="inline-card activity-card">
-      <h3>{name}</h3>
-      <p>
-        <b>기간</b>
-        {date}
-      </p>
-      <p>
-        <b>기관</b>
-        {agency}
-      </p>
-      <b>활동</b>
+      <h3 className="title">{name}</h3>
+      <span className="date">{date}</span>
+      <b className="mid-title">{agency}</b>
       <ul className="mul-line-list">{workList}</ul>
     </div>
   );

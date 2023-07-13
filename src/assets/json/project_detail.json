@@ -3,27 +3,43 @@
     {
       "id": 1,
       "name": "CarKeeper(카키퍼)",
+      "summary": "차박 중 차량 외부 야생동물이나, 외부인의 접근, 차량 내부 유해가스 위험 상황을 사용자에게 알려주고 사용자가 신속하게 대응할 수 있도록 도와줌으로써, 안전한 차박을 제공하는 서비스",
       "date": "2022.06 ~ 2022.12(6개월)",
+      "scale": "임베디드 SW 학술 동아리원 4명",
       "role": [
         "라즈베리파이 하드웨어(초음파 센서, 팬틸트 모터) 제어 & 원격 통신: 영상 스트리밍 서버: 웹소켓을 이용하여 라즈베리파이에 연결된 카메라 영상을 실시간으로 어플리케이션으로 송출.",
         "MQTT 프로토콜을 이용하여 라즈베리파이에 연결된 초음파 센서 데이터를 실시간으로 서버에 전달.",
         "DB 트리거 및 모바일 메세지 자동 전송: Firebase의 실시간 데이터 이벤트를 감지하는 Cloud Function 기능 개발."
       ],
       "keyword": [
+        "Figma",
         "Dart",
         "Flutter",
         "Python",
         "Flask",
-        "Firebase",
+        "WebSocket",
+        "Firebase Firestore",
+        "Firebase Cloud Functions",
+        "Firebase Cloud Messaging",
         "Raspberry Pi",
-        "Arduino"
+        "Pi Camera",
+        "Ultrasonic Sensor",
+        "Pan Tilt Motor",
+        "Arduino",
+        "MQTT",
+        "Mosquitto",
+        "Git"
       ],
+      "trouble": ["문제 해결 경험"],
+      "result": "제 20회 임베디드 소프트웨어 경진대회 자동차/모빌리티 부문 최우수상 (부문 1위)",
       "url": "https://github.com/KOBOTBOARD-11/2022ESWContest_mobility_6017"
     },
     {
       "id": 2,
       "name": "Booriya!(불이야!)",
+      "summary": "건물 내 화재 발생 시 신속하게 건물 CCTV 영상을 기반으로 119에 자동으로 화재 신고를 하고 출동 중인 소방관들에게 지속적으로 화재 현장 정보(초기 화재 발생 장소, 구조 대상자 등)를 제공해서 화재 진압과 인명 구조에 도움을 줄 수 있는 서비스",
       "date": "2022.06 ~ 2022.12(6개월)",
+      "scale": "임베디드 SW 학술 동아리원 4명",
       "role": ["임베디드", "앱 클라이언트", "클라우드 서버"],
       "keyword": [
         "Figma",
@@ -38,13 +54,17 @@
         "Raspberry Pi",
         "Git"
       ],
+      "trouble": ["문제 해결 경험"],
+      "result": "제 16회 공개SW 개발자 대회(사회문제형) 본선 진출 및 우수작 선정",
       "url": "https://github.com/KOBOTBOARD-11/OSS_2022"
     },
     {
       "id": 3,
       "name": "How Cook?",
+      "summary": "이미지 인식을 통한 레시피 추천 & 검색 서비스",
       "date": "2022.01 ~ 2022.06(6개월)",
-      "role": ["FE", "BE"],
+      "scale": "소프트웨어전공 학부생 4명",
+      "role": ["Frontend, Backend", "인공지능 모델 서버 구축"],
       "keyword": [
         "Figma",
         "JavaScript",
@@ -60,6 +80,8 @@
         "Heroku",
         "Git"
       ],
+      "trouble": ["문제 해결 경험"],
+      "result": "교내 캡스톤디자인 최종발표회 최우수상(1위), SW인재페스티벌 우수작품관 부스 운영",
       "url": "https://github.com/Sehee-Lee-01/capstone-2022-10"
     }
   ]

@@ -10,12 +10,9 @@ function EducationCard({ educationProps }: educationProps) {
   const { id, name, date, major } = educationProps;
   return (
     <div className="inline-card education-card">
-      <h3>{name}</h3>
-      <b>학위</b>
-      {major}
-      <br />
-      <b>기간</b>
-      {date}
+      <h3 className="title">{name}</h3>
+      <span className="date">{date}</span>
+      <b className="mid-title">{major}</b>
     </div>
   );
 }

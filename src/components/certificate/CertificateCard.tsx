@@ -10,11 +10,9 @@ function CertificateCard({ certificateProps }: certificateProps) {
   const { id, name, date, agency } = certificateProps;
   return (
     <div className="mini-card certificate-card">
-      <h3>{name}</h3>
-      <b>날짜</b>
-      {date} <br />
-      <b>기관</b>
-      {agency} <br />
+      <h3 className="title">{name}</h3>
+      <span className="date">{date}</span>
+      <span className="agency">{agency}</span>
     </div>
   );
 }

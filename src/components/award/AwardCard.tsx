@@ -10,13 +10,11 @@ function AwardCard({ awardProps }: awardProps) {
   const { id, name, award, date, agency } = awardProps;
   return (
     <div className="inline-card award-card">
-      <h3>{name}</h3>
-      <b>수상</b>
-      {award} <br />
-      <b>날짜</b>
-      {date} <br />
-      <b>기관</b>
-      {agency} <br />
+      <h3 className="title">{name}</h3>
+      <span className="date">{date}</span>
+      <br />
+      <b className="mid-title">{award}</b>
+      <span className="agency">{agency}</span>
     </div>
   );
 }

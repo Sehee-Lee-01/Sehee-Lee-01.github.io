@@ -4,33 +4,45 @@
     margin-bottom: 20px;
 }
 
+#introduce {
+    margin-bottom: 20px;
+}
+
 #introduce>b {
     display: inline;
 }
 
-div#img-box {
+#img-box {
     display: inline-block;
     margin: 30px;
 }
 
-img#my-img {
+#my-img {
     height: 200px;
     border-radius: 50%;
     border: solid 5px cornflowerblue;
 }
 
-div#info-box {
-    position: relative;
-    top: -20px;
+#info-box {
+    vertical-align: top;
     display: inline-block;
-    margin-left: 10px;
+    margin: 30px 0px 0px 20px;
     width: 500px;
 }
 
-div#info-box h1 {
+#info-box h1 {
     margin: 0px 0px 10px 0px;
 }
 
-.contact-list {
-    margin-top: 20px;
+.contact-list li {
+    list-style: none;
+    margin: 5px 0px;
+}
+
+.contact-list li a {
+    text-decoration: none;
+}
+
+.contact-list li:hover a {
+    color: cornflowerblue;
 }

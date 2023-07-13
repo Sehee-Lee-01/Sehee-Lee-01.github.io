@@ -1,24 +1,65 @@
-.project-card>h3 {
+.projects>h2,
+.title {
     display: inline-block;
 }
 
-.project-card>a {
+.project-detail .title {
+    margin-bottom: 30px;
+}
+
+.projects a {
     color: #aaa;
     text-decoration: none;
 }
 
-.project-card>a:hover {
+.projects a:hover {
     color: #6495ed;
 }
 
-.project-summary {
-    margin-bottom: 20px;
+.float-left {
+    float: right;
+    text-align: right;
 }
 
-.keyword-list {
-    margin: 5px 0px 10px 20px;
-}
-
-.keyword-list>li {
+.scale {
     font-size: small;
+}
+
+.summary {
+    margin-top: 20px;
+}
+
+.card-list {
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+.card-list>li {
+    font-size: small;
+    display: inline-block;
+    list-style: none;
+    background-color: aliceblue;
+    color: dodgerblue;
+    border: solid 1px dodgerblue;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 2px;
+}
+
+.card-list>li:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.card-list>li>a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.card-list>li:hover>a {
+    color: white;
+}
+
+.trouble-list li::marker {
+    color: salmon;
 }

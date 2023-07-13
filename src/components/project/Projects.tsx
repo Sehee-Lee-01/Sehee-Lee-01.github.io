@@ -1,35 +1,24 @@
 import React from 'react';
 import './style.css';
-import ProjectCard from './ProjectCard';
-import InfoJSON from '../../assets/json/project.json';
+import ProjectSum from './ProjectSum';
+import ProjectDetail from './ProjectDetail';
+
+const { useState } = React;
 
 function Projects() {
-  const infoList = InfoJSON.items.map((item) => (
-    <li key={item.id}>
-      <ProjectCard projectProps={item} />
-    </li>
-  ));
-
+  const [visibleSum, setVisibleSum] = useState(false);
+  const sum = '🔎 세부 정보 보기';
+  const detail = '🗺️ 요약해서 보기';
   return (
-    <div className="projects inline">
+    <div className="projects">
       <div id="project" className="bookmark" />
       <h2>프로젝트</h2>
-      <ul className="inline-list">{infoList}</ul>
+      <a href="/#projects" onClick={() => setVisibleSum(!visibleSum)}>
+        {visibleSum ? sum : detail}
+      </a>
+      {visibleSum ? <ProjectSum /> : <ProjectDetail />}
     </div>
   );
 }
 
 export default Projects;
-
-export interface ProjectInfo {
-  id: number;
-  name: string;
-  summary: string;
-  date: string;
-  scale: string;
-  role: string[];
-  keyword: string[];
-  trouble: string[];
-  result: string;
-  url: string;
-}

@@ -1,5 +1,14 @@
 .navbar {
-    text-align: justify;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: #6495ed;
+    box-shadow: 0 0 10px #aaa;
+    z-index: 10;
 }
 
 .navbar ul {
