@@ -1,0 +1,50 @@
+.navbar {
+    text-align: justify;
+}
+
+.navbar ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+    height: 100%;
+}
+
+.navbar li:hover {
+    background-color: aliceblue;
+}
+
+
+.navbar li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li:hover>a {
+
+    color: dodgerblue;
+}
+
+.pdf {
+    float: right;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 40px;
+    border: solid 2px dodgerblue;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: dodgerblue;
+    height: 80%;
+}
+
+.pdf:hover {
+    background-color: dodgerblue;
+    color: aliceblue;
+}

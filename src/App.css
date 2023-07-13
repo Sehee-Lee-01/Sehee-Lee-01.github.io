@@ -43,27 +43,7 @@ html {
     z-index: 10;
 }
 
-.navbar li {
-    display: inline-block;
-    list-style: none;
-    padding: 15px;
-    height: 100%;
-}
 
-.navbar li:hover {
-    background-color: aliceblue;
-}
-
-
-.navbar li>a {
-    color: white;
-    text-decoration: none;
-}
-
-.navbar li:hover>a {
-
-    color: dodgerblue;
-}
 
 
 #app-body {

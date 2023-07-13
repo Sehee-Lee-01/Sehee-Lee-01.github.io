@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 
 function Navbar() {
   return (
@@ -23,6 +24,9 @@ function Navbar() {
           <a href="#education">Educations</a>
         </li>
       </ul>
+      <button className="pdf" type="button">
+        PDF
+      </button>
     </div>
   );
 }
