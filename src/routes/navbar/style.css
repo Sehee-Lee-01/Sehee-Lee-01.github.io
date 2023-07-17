@@ -41,7 +41,7 @@
     color: dodgerblue;
 }
 
-.pdf {
+.print {
     float: right;
     padding: 5px;
     margin-top: 10px;
@@ -51,9 +51,10 @@
     background-color: aliceblue;
     color: dodgerblue;
     height: 80%;
+    cursor: pointer;
 }
 
-.pdf:hover {
+.print:hover {
     background-color: dodgerblue;
     color: aliceblue;
 }

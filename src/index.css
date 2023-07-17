@@ -52,3 +52,36 @@ html {
   width: 800px;
   border-radius: 50px;
 }
+
+@media print {
+  .navbar {
+    display: none;
+  }
+
+  html {
+    background: none;
+  }
+
+  .contanier {
+    margin-top: 0px;
+    padding-top: 20px;
+  }
+
+  .inline-card,
+  .mini-card {
+    border: none;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .projects>div>.inline-list>li:not(:first-of-type),
+  #resume>*:not(.projects) {
+    break-inside: avoid;
+  }
+
+  .inline-list>li {
+    margin-top: 0;
+  }
+}

@@ -4,45 +4,67 @@
     margin-bottom: 20px;
 }
 
-#introduce {
-    margin-bottom: 20px;
+#info-box {
+    vertical-align: top;
+    display: inline-block;
+    margin: 10px 0px 10px 20px;
+    width: 500px;
 }
 
-#introduce>b {
-    display: inline;
+#info-box>h1 {
+    margin-right: 20px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+#introduce {
+    margin-bottom: 10px;
 }
 
 #img-box {
     display: inline-block;
-    margin: 30px;
+    margin: 20px;
 }
 
 #my-img {
-    height: 200px;
+    height: 180px;
     border-radius: 50%;
-    border: solid 5px cornflowerblue;
 }
 
-#info-box {
-    vertical-align: top;
+#info-box>.contact-list {
     display: inline-block;
-    margin: 30px 0px 0px 20px;
-    width: 500px;
 }
 
-#info-box h1 {
-    margin: 0px 0px 10px 0px;
-}
-
-.contact-list li {
+.contact-list>li {
+    display: inline-block;
     list-style: none;
-    margin: 5px 0px;
+    margin: 5px 5px;
 }
 
-.contact-list li a {
+.contact-list>li>a {
     text-decoration: none;
 }
 
-.contact-list li:hover a {
-    color: cornflowerblue;
+.skill-list {
+    list-style-type: none;
+}
+
+.skill-list>li {
+    display: inline-block;
+    width: 500px;
+}
+
+.skill-list>li>b {
+    font-size: small;
+    color: dodgerblue;
+    display: inline-block;
+    width: 60px;
+}
+
+.skill-list .card-list {
+    margin: 0px;
+}
+
+.icon:hover * {
+    fill: dodgerblue;
 }

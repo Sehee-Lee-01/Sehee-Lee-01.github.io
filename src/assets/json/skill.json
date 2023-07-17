@@ -2,23 +2,23 @@
   "item": [
     {
       "id": 1,
-      "name": "FE",
-      "skill": "HTML/CSS, ReactJS"
+      "name": "Frontend",
+      "skill": ["HTML/CSS", "ReactJS"]
     },
     {
       "id": 2,
-      "name": "BE",
-      "skill": "ExpressJS, Django"
+      "name": "Backend",
+      "skill": ["ExpressJS", "Django"]
     },
     {
       "id": 3,
-      "name": "DB",
-      "skill": "MySQL, MongoDB"
+      "name": "Database",
+      "skill": ["MySQL", "MongoDB"]
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "ETC",
-      "skill": "C/C++, UNIX, Ubuntu, Git, Firebase, AWS"
+      "skill": ["C/C++", "Java", "UNIX", "Git", "Firebase", "AWS"]
     }
   ]
 }

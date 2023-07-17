@@ -8,7 +8,7 @@
 
 
 b {
-    color: cornflowerblue;
+    color: #6495ed;
 }
 
 
@@ -22,16 +22,17 @@ h2 {
 
 h1,
 h3 {
-    color: dodgerblue;
-    margin: 0px 20px 10px 0px;
+    color: #1f8fff;
+    margin-right: 5px;
 }
 
 h2 {
-    margin: 0px 10px;
+    margin-bottom: 10px;
 }
 
 h3 {
     font-family: TheJamsil5Bold, sans-serif;
+    margin-bottom: 5px;
 }
 
 li::marker {
@@ -42,9 +43,6 @@ li::marker {
 div>b,
 p>b {
     display: inline-block;
-    width: 50px;
-    height: 20px;
-    margin: 5px 0;
 }
 
 .inline>a {
@@ -54,14 +52,14 @@ p>b {
 
 .inline-list>li {
     list-style: none;
-    margin: 20px 0;
+    margin-bottom: 10px;
 }
 
 .inline-card {
     background-color: white;
     border: solid 2px #6495ed;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
 }
 
 
@@ -69,7 +67,7 @@ p>b {
     margin: 0 auto;
     width: 100%;
     text-align: center;
-    margin: 20px 0;
+    margin-bottom: 10px;
 }
 
 .mini-list>li {
@@ -81,45 +79,46 @@ p>b {
 
 .mini-card {
     background-color: white;
-    width: 350px;
-    height: 50px;
+    width: 360px;
+    height: 45px;
     border: solid 2px #6495ed;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     text-align: start;
-}
-
-.mini-card>h3 {
-    display: inline-block;
 }
 
 .date {
     color: #6495ed;
     float: right;
-}
-
-.inline-card:hover,
-.mini-card:hover {
-    box-shadow: 0 0 5px #aaa;
+    margin-bottom: 4px;
 }
 
 .mul-line-list {
-    margin: 0px 0px 10px 20px;
+    margin: 10px 0px 5px 20px;
 }
 
-.mul-line-list li,
-.mul-line-list li a {
+.list-title {
+    margin: 5px;
+    font-family: TheJamsil5Bold;
+}
+
+.mul-line-list li {
     list-style-position: inside;
     list-style-type: square;
     text-indent: -20px;
-    margin: 11px 0;
+    margin-bottom: 5px;
 }
 
-.mul-line-list li a {
-    text-decoration: none;
+.title {
+    display: inline-block;
 }
 
 .mid-title {
-    width: 100%;
-    margin-bottom: 10px;
+    display: block;
+}
+
+.agency {
+    display: block;
+    font-size: small;
+    margin-top: 10px;
 }

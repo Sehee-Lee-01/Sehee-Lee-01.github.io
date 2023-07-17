@@ -1,16 +1,19 @@
 {
   "items": [
     {
-      "name": "📨 tpgktpgml24@gmail.com",
-      "url": "mailto:tpgktpgml24@gmail.com"
+      "name": "tpgktpgml24@gmail.com",
+      "url": "mailto:tpgktpgml24@gmail.com",
+      "icon": "SiGmail"
     },
     {
-      "name": "🗃️ Github(@Sehee-Lee-01)",
-      "url": "https://github.com/Sehee-Lee-01"
+      "name": "Github",
+      "url": "https://github.com/Sehee-Lee-01",
+      "icon": "SiGithub"
     },
     {
-      "name": "✏️ TIL",
-      "url": "https://github.com/Sehee-Lee-01/TIL"
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/se-hee-%E2%80%8Dlee-6b2340221/",
+      "icon": "SiLinkedin"
     }
   ]
 }

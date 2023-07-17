@@ -2,14 +2,8 @@ import React from 'react';
 import './style.css';
 
 function Navbar() {
-  const portfolio = document.getElementById('project-details');
-  const resume = document.getElementById('resume');
-
   function downloadPDF() {
-    const link = document.createElement('a');
-    link.href = '/Resume.pdf'; // public
-    link.download = 'Resume-temp.pdf';
-    link.dispatchEvent(new MouseEvent('click'));
+    window.print();
   }
 
   return (
@@ -17,9 +11,6 @@ function Navbar() {
       <ul>
         <li>
           <a href="/">소개</a>
-        </li>
-        <li>
-          <a href="/#skill">사용 기술</a>
         </li>
         <li>
           <a href="/#project">프로젝트</a>
@@ -37,8 +28,8 @@ function Navbar() {
           <a href="/#education">교육</a>
         </li>
       </ul>
-      <button onClick={downloadPDF} className="pdf" type="button">
-        PDF
+      <button onClick={downloadPDF} className="print" type="button">
+        인쇄
       </button>
     </div>
   );

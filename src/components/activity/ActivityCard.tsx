@@ -7,7 +7,7 @@ type activityProps = {
 };
 
 function ActivityCard({ activityProps }: activityProps) {
-  const { id, name, date, agency, work } = activityProps;
+  const { name, date, agency, work } = activityProps;
   const workList = work.map((item) => <li key={item}>{item}</li>);
 
   return (

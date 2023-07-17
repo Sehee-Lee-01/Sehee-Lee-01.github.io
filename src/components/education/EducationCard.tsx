@@ -7,7 +7,7 @@ type educationProps = {
 };
 
 function EducationCard({ educationProps }: educationProps) {
-  const { id, name, date, major } = educationProps;
+  const { name, date, major } = educationProps;
   return (
     <div className="inline-card education-card">
       <h3 className="title">{name}</h3>
