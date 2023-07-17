@@ -95,7 +95,7 @@ function ProjectCard({ projectProps }: projectCardProps) {
       {visibleSum ? null : (
         <>
           <div className="role list-title">🧩기능 개발</div>
-          <ul className="mul-line-list">{roleList}</ul>
+          <ul className="mul-line-list role-list">{roleList}</ul>
           {trouble.length === 0 ? null : (
             <>
               <div className="trouble list-title">🚨문제 해결 및 개선</div>
