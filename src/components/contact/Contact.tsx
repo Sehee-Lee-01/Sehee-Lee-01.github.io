@@ -38,17 +38,15 @@ function Contact() {
     <>
       <div id="contact" className="bookmark" />
       <div className="contact">
-        <div id="img-box">
+        {/* <div id="img-box">
           <img id="my-img" src="profile.png" alt="It's Me." />
-        </div>
+        </div> */}
 
         <div id="info-box">
           <h1>이 세희</h1>
           <ul className="contact-list">{infoList}</ul>
           <p id="introduce">
-            <b>실시간 데이터</b>를 효율적으로 처리하는 <b>백엔드 개발자</b>가
-            되고 싶습니다. <br />
-            사회 문제를 해결하는 개발자를 꿈꾸고 있습니다.
+            사회 문제를 해결하는 <b>백엔드 개발자</b>를 꿈꾸고 있습니다.
           </p>
           <ul className="skill-list">{skillList}</ul>
         </div>

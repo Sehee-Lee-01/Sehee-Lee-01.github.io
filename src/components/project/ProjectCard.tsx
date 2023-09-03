@@ -12,6 +12,7 @@ interface ProjectInfo {
   scale: string;
   keyword: string[];
   category: string[];
+  process: string[][];
   role: string[][];
   trouble: string[][];
   result?: string;
@@ -29,6 +30,7 @@ function ProjectCard({ projectProps }: projectCardProps) {
     summary,
     date,
     scale,
+    process,
     role,
     keyword,
     category,
@@ -39,6 +41,14 @@ function ProjectCard({ projectProps }: projectCardProps) {
   const [visibleSum, setVisibleSum] = useState(true);
   const keywordList = keyword.map((item) => <li key={item}>{item}</li>);
   const categoryList = category.map((item) => <li key={item}> {item}</li>);
+  const processList = process.map((item) => (
+    <>
+      <li key={item[0]}>
+        <span className="role-title">{item[0]}</span>
+      </li>
+      <span className="role-detail">{item[1]}</span>
+    </>
+  ));
   const roleList = role.map((item) => (
     <>
       <li key={item[0]}>
@@ -94,14 +104,12 @@ function ProjectCard({ projectProps }: projectCardProps) {
 
       {visibleSum ? null : (
         <>
+          <div className="role list-title">👣 진행 과정</div>
+          <ul className="mul-line-list role-list">{processList}</ul>
           <div className="role list-title">🧩기능 개발</div>
           <ul className="mul-line-list role-list">{roleList}</ul>
-          {trouble.length === 0 ? null : (
-            <>
-              <div className="trouble list-title">🚨문제 해결 및 개선</div>
-              <ul className="mul-line-list trouble-list">{troubleList}</ul>
-            </>
-          )}
+          <div className="trouble list-title">🚨문제 해결 및 개선</div>
+          <ul className="mul-line-list trouble-list">{troubleList}</ul>
         </>
       )}
     </div>
