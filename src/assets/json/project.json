@@ -41,18 +41,10 @@
       "category": ["Web"],
       "keyword": [
         "Figma",
-        "JavaScript",
-        "TypeScript",
         "React",
-        "Recoil",
-        "Styled-Components",
-        "Node.js",
         "Express",
-        "TypeORM",
-        "Python",
         "FastAPI",
         "Heroku",
-        "REST Client(vscode)",
         "Postman",
         "Git"
       ],
@@ -66,7 +58,7 @@
           "재료 이미지 및 영수증 속 재료 리스트 반환 API를 Heroku에 배포한 이후 요청이 많아질수록 5** 응답 코드가 발생하는 것을 확인했습니다. Heroku를 무료 버전으로 사용하면서 적은 메모리 설정 때문에 발생한 문제였습니다. 이를 통해 적절한 메모리 설정의 중요성을 깨달았습니다."
         ]
       ],
-      "result": "교내 캡스톤디자인 최종발표회 최우수상(1위), SW인재페스티벌 우수작품관 부스 운영",
+      "result": "🏆 교내 캡스톤디자인 최종발표회 최우수상(1위), SW인재페스티벌 우수작품관 부스 운영",
       "url": "https://github.com/kookmin-sw/capstone-2022-10"
     },
     {
@@ -78,22 +70,15 @@
       "category": ["IoT", "Cloud", "Mobile"],
       "keyword": [
         "Figma",
-        "Dart",
         "Flutter",
-        "Python",
         "Flask",
-        "WebSocket",
-        "Firebase Firestore",
-        "JavaScript",
-        "Firebase Cloud Functions",
-        "Firebase Cloud Messaging",
+        "Firebase",
         "Raspberry Pi 4",
         "Pi Camera",
         "Ultrasonic Sensor",
         "Pan Tilt Motor",
         "Arduino",
         "MQTT",
-        "Mosquitto",
         "Git"
       ],
       "process": [
@@ -134,7 +119,7 @@
           "초기에는 매 프레임마다 [(영상 프레임의 중앙 x, y 좌표) - (대상 박스의 중앙 x, y 좌표)] 값에 '비례'하게 서보 모터 제어 각도를 설정했습니다. 하지만 대상이 빠르게 움직이고, 서보모터 제어 시간도 고려해야하기 때문에 해당 방식의 한계를 깨달았습니다. 이후 좌표 데이터에서 '이동 방향'만 추출하고 프레임마다 '단위 각도'만큼 움직이도록 설정하였습니다. 또한 정확한 서보모터 제어를 위해 제어하는 동안에는 프로그램을 일정 시간동안 Sleep 하도록 설정했습니다. "
         ]
       ],
-      "result": "제 20회 임베디드 소프트웨어 경진대회 자동차/모빌리티 부문 최우수상 (부문 1위)",
+      "result": "🏆 제 20회 임베디드 소프트웨어 경진대회 자동차/모빌리티 부문 최우수상 (부문 1위)",
       "url": "https://github.com/KOBOTBOARD-11/2022ESWContest_mobility_6017"
     },
     {
@@ -170,15 +155,10 @@
       "category": ["IoT", "Cloud", "Mobile"],
       "keyword": [
         "Figma",
-        "Dart",
         "Flutter",
-        "Python",
         "Flask",
-        "WebSocket",
-        "Firebase Firestore",
+        "Firebase",
         "JavaScript",
-        "Firebase Cloud Functions",
-        "Firebase Cloud Messaging",
         "Raspberry Pi",
         "Git"
       ],
@@ -188,8 +168,50 @@
           "YOLO v5 기반 로컬 서버에서는 다른 이벤트들(영상 처리, 대상 좌표 구하기 등)도 처리를 해야하기 때문에, Loop 문을 이용하여 실시간 데이터 모니터링을 하게되면 딜레이가 많이 생기는 상황이었습니다. 딜레이가 생기는 이유는 한 서버에 연산량이 많아져서 발생하는 것이라고 생각했고, 기능을 분리하고자 실시간 데이터 모니터링 기능은 클라우드 서비스를 이용했습니다. 단일 이벤트 목적으로 이용하는 Google Cloud Functions를 사용하면서 이벤트 감지 반응 속도를 높일 수 있었으며, 간편하게 기능을 구현함으로써 개발 시간을 단축할 수 있었습니다. 다른 서비스와의 높은 연동성으로 자동 메시징 기능도 한 번에 해결할 수 있었습니다."
         ]
       ],
-      "result": "제 16회 공개SW 개발자 대회(사회문제형) 본선 진출 및 우수작 선정",
+      "result": "🏆 제 16회 공개SW 개발자 대회(사회문제형) 본선 진출 및 우수작 선정",
       "url": "https://github.com/KOBOTBOARD-11/OSS_2022"
+    },
+    {
+      "id": 3,
+      "name": "Object tracking & laser pointing system",
+      "summary": "테니스 공을 트래킹하며 테니스 공의 위치를 레이저로 포인팅하는 프로젝트입니다.",
+      "date": "2022.09 ~ 2022.12(3개월)",
+      "scale": "개인",
+      "process": [
+        [
+          "Backlog 작성 후 스프린트 도입",
+          "구현할 기능을 정리하기 위해 Backlog를 작성했습니다. 이를 통해 프로젝트 진행 과정에서 생긴 문제점, 개선점을 더 빠르게 공유하고, 다함께 고민하여 신속하게 해결할 수 있는 환경을 조성할 수 있었습니다. 또한 일주일 단위의 스프린트를 도입하고 Slack으로 매일 진행상황을 기록했습니다."
+        ],
+        [
+          "Use Case 구상 및 프로토타입 설계",
+          "서비스 사용 흐름을 정리하고자 Use Case를 구상하고 Figma를 이용하여 프로토타입을 제작했습니다. 이를 통해 더욱 구체적으로 사용자 입장에서 서비스를 바라볼 수 있었고 Use Case를 더욱 구체화하는 데 많은 도움이 되었습니다. 또한 Backlog에 정리한 작업들이 정말 필요한 작업인지 다시 한 번 검증하며 더욱 효율적으로 프로젝트를 진행할 수 있었습니다."
+        ]
+      ],
+      "role": [
+        [
+          "HSV 필터 기반으로 이미지에서 테니스 공 반지름 및 중앙 좌표 추출",
+          "테니스 공의 색상(연두색) 범위를 정하고 HSV 필터를 통해 카메라 영상에서 테니스 공 색상에 해당되는 부분을 분리합니다. 그 결과에서 minEnclosingCircle() 메서드를 이용해 테니스 공의 반지름과 중앙좌표를 추출했습니다."
+        ],
+        ["테니스 공 트래킹 알고리즘 구현", "팬틸트 모터"]
+      ],
+      "category": ["OpenCV", "Embedded System"],
+      "keyword": [
+        "OpenCV",
+        "RPi.GPIO",
+        "Pigpio",
+        "Git",
+        "Raspberry Pi 4",
+        "Pi Camera",
+        "Pan Tilt Motor(MG90S Servo Motor)"
+      ],
+      "trouble": [
+        [
+          "부드러운 서보모터 제어를 위해 pigpio library 사용",
+          "RPi.GPIO에서 Pigpio로 변경 후 지터링 개선"
+        ]
+      ],
+      "result": "🏫 2022년도 2학기 임베디드시스템설계 과목 기말 프로젝트",
+      "url": "https://github.com/Sehee-Lee-01/2022_2_ESD/tree/main/FinalProject"
     }
   ]
 }

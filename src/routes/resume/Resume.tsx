@@ -11,9 +11,9 @@ function Resume() {
     <div id="resume">
       <Contact />
       <Projects />
-      <Certificates />
-      <Awards />
       <Activities />
+      <Awards />
+      <Certificates />
       <Educations />
     </div>
   );

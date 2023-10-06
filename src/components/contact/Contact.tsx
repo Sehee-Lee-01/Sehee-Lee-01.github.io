@@ -46,7 +46,7 @@ function Contact() {
           <h1>이 세희</h1>
           <ul className="contact-list">{infoList}</ul>
           <p id="introduce">
-            사회 문제를 해결하는 <b>백엔드 개발자</b>를 꿈꾸고 있습니다.
+            함께 일하고 싶은 <b>백엔드 개발자</b>를 꿈꾸고 있습니다.
           </p>
           <ul className="skill-list">{skillList}</ul>
         </div>

@@ -1,6 +1,11 @@
 {
   "items": [
     {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/se-hee-%E2%80%8Dlee-6b2340221/",
+      "icon": "SiLinkedin"
+    },
+    {
       "name": "tpgktpgml24@gmail.com",
       "url": "mailto:tpgktpgml24@gmail.com",
       "icon": "SiGmail"
@@ -11,14 +16,14 @@
       "icon": "SiGithub"
     },
     {
-      "name": "Linkedin",
-      "url": "https://www.linkedin.com/in/se-hee-%E2%80%8Dlee-6b2340221/",
-      "icon": "SiLinkedin"
-    },
-    {
       "name": "Stack Overflow",
       "url": "https://stackoverflow.com/users/19449341/sehee-lee",
       "icon": "SiStackoverflow"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@Hailey24",
+      "icon": "SiMedium"
     }
   ]
 }

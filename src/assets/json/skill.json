@@ -3,22 +3,22 @@
     {
       "id": 1,
       "name": "Frontend",
-      "skill": ["HTML/CSS", "ReactJS"]
+      "skill": ["HTML/CSS", "JavaScript"]
     },
     {
       "id": 2,
       "name": "Backend",
-      "skill": ["ExpressJS", "Django"]
+      "skill": ["Django"]
     },
     {
       "id": 3,
       "name": "Database",
-      "skill": ["MySQL", "MongoDB"]
+      "skill": ["MySQL"]
     },
     {
       "id": 4,
       "name": "ETC",
-      "skill": ["C/C++", "Java", "UNIX", "Git", "Firebase", "AWS", "MCU"]
+      "skill": ["Java", "C/C++", "LINUX", "Git", "Firebase", "MCU"]
     }
   ]
 }

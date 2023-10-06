@@ -13,7 +13,7 @@ function Activities() {
   return (
     <div className="activities inline">
       <div id="activity" className="bookmark" />
-      <h2>활동</h2>
+      <h2>활동/교육</h2>
       <ul className="inline-list activity-list">{infoList}</ul>
     </div>
   );

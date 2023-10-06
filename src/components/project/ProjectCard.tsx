@@ -79,7 +79,7 @@ function ProjectCard({ projectProps }: projectCardProps) {
         <p className="date">{date}</p>
         <p className="scale">{scale}</p>
       </div>
-      {result === '' ? <br /> : <p className="result">🏆 {result}</p>}
+      {result === '' ? <br /> : <p className="result">{result}</p>}
       <h3 className="title">
         <a href={url}>{name}🔗</a>
       </h3>

@@ -13,7 +13,7 @@ function Educations() {
   return (
     <div className="educations inline">
       <div id="education" className="bookmark" />
-      <h2>교육</h2>
+      <h2>학력</h2>
       <ul className=" inline-list education-list">{infoList}</ul>
     </div>
   );
