@@ -5,7 +5,10 @@
       "name": "[5기] 프로그래머스 데브코스: 클라우드 기반 백엔드 엔지니어링",
       "agency": "(주)그렙",
       "date": "2023.09.19 ~ 2024.03.25(6개월)",
-      "work": ["(진행중)"]
+      "work": [
+        "Java 언어로만 도서 관리 시스템 만들기 프로젝트 진행. OOP, Spring Framework Core 기술에 대한 이해도 향상.",
+        "Spring MVC 구조로 바우처 관리 시스템 만들기 프로젝트(Thymeleaf, HTTP API)를 진행. Spring Boot가 제공하는 다양한 기능 활용."
+      ]
     },
     {
       "id": 2,
