@@ -8,7 +8,7 @@
     {
       "id": 2,
       "name": "Backend",
-      "skill": ["Java", "Spring"]
+      "skill": ["Java", "Spring Framework", "Spring Boot"]
     },
     {
       "id": 3,
@@ -17,8 +17,13 @@
     },
     {
       "id": 4,
+      "name": "Infra",
+      "skill": ["AWS", "Docker"]
+    },
+    {
+      "id": 5,
       "name": "ETC",
-      "skill": ["C/C++", "Git", "LINUX", "MCU"]
+      "skill": ["Git", "LINUX", "MCU"]
     }
   ]
 }

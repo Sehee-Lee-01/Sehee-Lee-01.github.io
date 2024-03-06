@@ -8,7 +8,7 @@
     vertical-align: top;
     display: inline-block;
     margin: 10px 0px 10px 20px;
-    width: 500px;
+    /* width: 530px; */
 }
 
 #info-box>h1 {
@@ -67,4 +67,13 @@
 
 .icon:hover * {
     fill: dodgerblue;
+}
+
+#myRule {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#myRule>li {
+    margin: 3px;
 }
