@@ -1,6 +1,59 @@
 {
   "items": [
     {
+      "id": 5,
+      "name": "사이드픽(Side-Peek)",
+      "summary": "사이드 프로젝트 아이디어 및 결과물을 공유하는 커뮤니티 서비스입니다.",
+      "date": "2024.01 ~ 2024.03(2개월)",
+      "scale": "백엔드 3명 / 프론트엔드 5명",
+      "process": [[]],
+      "role": [[]],
+      "category": ["Web", "Backend"],
+      "keyword": [
+        "Figma",
+        "Figjam",
+        "Java 17",
+        "Spring Boot 3.2.2",
+        "Spring Framework",
+        "Jacoco",
+        "Swagger",
+        "Docker",
+        "MySQL 8.3.0",
+        "AWS S3",
+        "Postman",
+        "Git 2.39.1"
+      ],
+      "trouble": [[]],
+      "result": "🚀 데브코스 최종 프로젝트",
+      "url": "https://github.com/side-peek/sidepeek_backend"
+    },
+    {
+      "id": 4,
+      "name": "OOTW(Outfit-Of-The-Weather)",
+      "summary": "날씨에 맞는 코디를 공유하는 커뮤니티 서비스입니다. 사용자가 현재 위치의 날씨를 확인하고, 해당 날씨에 맞는 옷차림을 아바타로 꾸며 공유할 수 있습니다.",
+      "date": "2023.12 ~ 2024.01(1개월)",
+      "scale": "백엔드 3명",
+      "process": [[]],
+      "role": [[]],
+      "category": ["Web", "Backend"],
+      "keyword": [
+        "Figma",
+        "Java 17",
+        "Spring Boot 3.2.2",
+        "Spring Framework",
+        "CheckStyle",
+        "RestDocs",
+        "Docker",
+        "MySQL 8.3.0",
+        "JMeter",
+        "Postman",
+        "Git 2.39.1"
+      ],
+      "trouble": [[]],
+      "result": "🚀 데브코스 백엔드 팀 프로젝트",
+      "url": "https://github.com/backendoori/ootw-backend"
+    },
+    {
       "id": 3,
       "name": "How Cook?",
       "summary": "냉장고 속 남은 재료들이나 마트 영수증을 촬영하여 사진애서 인식한 재료들로 만들 수 있는 레시피를 추천 받고, 검색할 수 있도록 도와주는 서비스입니다. ",
@@ -38,7 +91,7 @@
           "React를 기반으로 재료 이미지와 영수증 이미지를 전송하여 분석된 재료 리스트를 요청하고, 다른 페이지에서도 재료 리스트를 이용하기 위해 Recoil을 통해 결과를 저장합니다. 응답 후 페이지를 이동하여 저장된 재료 리스트를 띄워주는 기능을 구현했습니다. 구현한 컴포넌트의 재사용성을 높이기 위해 Styled-Components를 사용했습니다. 또한 Media Query를 이용하여 사용자 기기의 크기에 따라 레이아웃을 변경할 수 있도록 반응형 웹을 구현했습니다."
         ]
       ],
-      "category": ["Web"],
+      "category": ["Web", "Frontend", "Backend"],
       "keyword": [
         "Figma",
         "React",
