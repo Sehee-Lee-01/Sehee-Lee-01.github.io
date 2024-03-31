@@ -32,7 +32,7 @@
     vertical-align: top;
 }
 
-.contact-list>li>a:hover * {
+.contact-list>li:hover * {
     fill: dodgerblue;
 }
 
