@@ -76,8 +76,8 @@ function ProjectCard({ projectProps }: projectCardProps) {
     >
       <div className="float-left">
         <ul className="card-list category">{categoryList}</ul>
-        <p className="date">{date}</p>
-        <p className="scale">{scale}</p>
+        <div className="date">{date}</div>
+        <div className="scale">{scale}</div>
       </div>
       {result === '' ? <br /> : <p className="result">{result}</p>}
       <h3 className="title">

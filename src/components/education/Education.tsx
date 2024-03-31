@@ -26,4 +26,5 @@ export interface EducationInfo {
   name: string;
   date: string;
   major: string;
+  grade: string;
 }

@@ -2,28 +2,33 @@
   "item": [
     {
       "id": 1,
-      "name": "Frontend",
-      "skill": ["HTML/CSS", "JavaScript", "React"]
-    },
-    {
-      "id": 2,
       "name": "Backend",
-      "skill": ["Java", "Spring Framework", "Spring Boot"]
+      "skill": [
+        "Java 17",
+        "Spring Boot",
+        "Spring MVC",
+        "Spring Security",
+        "MySQL",
+        "JDBC",
+        "JPA",
+        "JUnit5",
+        "Mockito"
+      ]
     },
     {
       "id": 3,
-      "name": "Database",
-      "skill": ["MySQL"]
+      "name": "Infra",
+      "skill": ["Amazon EC2", "Amazon S3", "Amazon RDS", "Firebase", "Docker"]
     },
     {
       "id": 4,
-      "name": "Infra",
-      "skill": ["AWS", "Docker"]
+      "name": "Frontend",
+      "skill": ["HTML/CSS", "JavaScript/TypeScript", "React"]
     },
     {
       "id": 5,
       "name": "ETC",
-      "skill": ["Git", "LINUX", "MCU"]
+      "skill": ["LINUX", "C/C++", "Python", "Git", "Figma", "MCU"]
     }
   ]
 }

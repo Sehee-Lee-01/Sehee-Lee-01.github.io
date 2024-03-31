@@ -33,8 +33,10 @@
     text-align: right;
 }
 
-.scale {
+.float-left>div {
     font-size: small;
+    display: block;
+    width: 200px;
 }
 
 .summary {
@@ -43,8 +45,7 @@
 }
 
 .card-list {
-    display: inline-block;
-    margin: 10px 0px;
+    margin: 5px 0px;
     font-size: small;
 }
 

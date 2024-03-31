@@ -8,72 +8,52 @@
     vertical-align: top;
     display: inline-block;
     margin: 10px 0px 10px 20px;
-    /* width: 530px; */
-}
-
-#info-box>h1 {
-    margin-right: 20px;
-    margin-bottom: 5px;
-    display: inline-block;
 }
 
 #introduce {
-    margin-bottom: 10px;
-}
-
-#img-box {
-    display: inline-block;
-    margin: 20px;
-}
-
-#my-img {
-    height: 180px;
-    border-radius: 50%;
+    margin: 10px 30px 10px 0px;
 }
 
 #info-box>.contact-list {
     display: inline-block;
+    width: 320px;
+    height: 100px;
 }
 
 .contact-list>li {
-    display: inline-block;
     list-style: none;
-    margin: 5px 5px;
+    margin: 5px 0px 0px;
 }
 
 .contact-list>li>a {
-    text-decoration: none;
-}
-
-.skill-list {
-    list-style-type: none;
-}
-
-.skill-list>li {
     display: inline-block;
-    width: 500px;
-}
-
-.skill-list>li>b {
     font-size: small;
-    color: dodgerblue;
-    display: inline-block;
-    width: 60px;
+    text-decoration: none;
+    vertical-align: top;
 }
 
-.skill-list .card-list {
-    margin: 0px;
-}
-
-.icon:hover * {
+.contact-list>li>a:hover * {
     fill: dodgerblue;
 }
 
-#myRule {
-    margin-top: 10px;
-    margin-left: 20px;
+.skill-list {
+    vertical-align: top;
+    list-style-type: none;
+    display: inline-block;
+    width: 430px;
 }
 
-#myRule>li {
-    margin: 3px;
+.card-list>.skill-category {
+    font-size: small;
+    background-color: white;
+    color: dodgerblue;
+    font-weight: 600;
+    float: left;
+    width: 60px;
+    height: 15px;
+}
+
+.skill-list>li>* {
+    display: inline-block;
+    margin: 0px;
 }

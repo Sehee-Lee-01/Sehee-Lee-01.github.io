@@ -4,7 +4,7 @@
       "id": 5,
       "name": "사이드픽(Side-Peek)",
       "summary": "사이드 프로젝트 아이디어 및 결과물을 공유하는 커뮤니티 서비스입니다.",
-      "date": "2024.01 ~ 2024.03(2개월)",
+      "date": "2024.01 ~ (진행중)",
       "scale": "백엔드 3명 / 프론트엔드 5명",
       "process": [
         [
@@ -32,18 +32,13 @@
       ],
       "category": ["Web", "Backend"],
       "keyword": [
-        "Figma",
-        "Figjam",
         "Java 17",
         "Spring Boot 3.2.2",
-        "Spring Framework",
         "JaCoCo",
         "Swagger",
         "Docker",
         "MySQL 8.3.0",
-        "AWS S3",
-        "Postman",
-        "Git 2.39.1"
+        "AWS S3"
       ],
       "trouble": [
         [
@@ -94,17 +89,13 @@
       ],
       "category": ["Web", "Backend"],
       "keyword": [
-        "Figma",
         "Java 17",
         "Spring Boot 3.2.2",
-        "Spring Framework",
         "CheckStyle",
         "RestDocs",
         "Docker",
         "MySQL 8.3.0",
-        "JMeter",
-        "Postman",
-        "Git 2.39.1"
+        "JMeter"
       ],
       "trouble": [
         [
@@ -162,15 +153,7 @@
         ]
       ],
       "category": ["Web", "Frontend", "Backend"],
-      "keyword": [
-        "Figma",
-        "React",
-        "Express",
-        "FastAPI",
-        "Heroku",
-        "Postman",
-        "Git"
-      ],
+      "keyword": ["React", "Express", "FastAPI", "Heroku", "Git"],
       "trouble": [
         [
           "재료 이미지, 영수증 속 재료 리스트 반환 API 요청 후 지연시간 발생",
@@ -192,7 +175,6 @@
       "scale": "임베디드 SW 학술 동아리원 4명",
       "category": ["IoT", "Cloud", "Mobile"],
       "keyword": [
-        "Figma",
         "Flutter",
         "Flask",
         "Firebase",
@@ -201,8 +183,7 @@
         "Ultrasonic Sensor",
         "Pan Tilt Motor",
         "Arduino",
-        "MQTT",
-        "Git"
+        "MQTT"
       ],
       "process": [
         [
@@ -276,15 +257,7 @@
         ]
       ],
       "category": ["IoT", "Cloud", "Mobile"],
-      "keyword": [
-        "Figma",
-        "Flutter",
-        "Flask",
-        "Firebase",
-        "JavaScript",
-        "Raspberry Pi",
-        "Git"
-      ],
+      "keyword": ["Flutter", "Flask", "Firebase", "JavaScript", "Raspberry Pi"],
       "trouble": [
         [
           "로컬 서버 → 서버리스 클라우드 서비스(Google Cloud Functions) 전환으로 개선된 이벤트 감지 시간",
@@ -325,7 +298,6 @@
         "OpenCV",
         "RPi.GPIO",
         "Pigpio",
-        "Git",
         "Raspberry Pi 4",
         "Pi Camera",
         "Pan Tilt Motor(MG90S Servo Motor)"
