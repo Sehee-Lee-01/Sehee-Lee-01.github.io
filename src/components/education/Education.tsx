@@ -25,6 +25,11 @@ export interface EducationInfo {
   id: number;
   name: string;
   date: string;
-  major: string;
+  major: MajorInfo[];
   grade: string;
+}
+
+export interface MajorInfo {
+  type: string;
+  name: string;
 }

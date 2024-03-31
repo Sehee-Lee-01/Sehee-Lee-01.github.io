@@ -1,0 +1,8 @@
+.majors {
+    list-style: none;
+}
+
+.major-type {
+    display: inline-block;
+    width: 80px;
+}

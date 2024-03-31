@@ -89,6 +89,7 @@ p>b {
 
 .date {
     color: #6495ed;
+    font-size: small;
     float: right;
     margin-bottom: 4px;
 }
