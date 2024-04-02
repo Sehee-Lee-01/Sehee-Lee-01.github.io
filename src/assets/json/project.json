@@ -34,11 +34,23 @@
       "keyword": [
         "Java 17",
         "Spring Boot 3.2.2",
+        "JPA",
+        "QueryDSL",
+        "CheckStyle",
         "JaCoCo",
+        "JUnit5",
+        "Mockito",
         "Swagger",
-        "Docker",
+        "Sentry",
         "MySQL 8.3.0",
-        "AWS S3"
+        "Flyway",
+        "Docker",
+        "Amazon RDS",
+        "Github Actions",
+        "Amazon EC2",
+        "Amazon S3",
+        "CodeDeploy",
+        "IAM"
       ],
       "trouble": [
         [
@@ -91,11 +103,17 @@
       "keyword": [
         "Java 17",
         "Spring Boot 3.2.2",
+        "OpenFeign",
+        "JPA",
         "CheckStyle",
+        "JaCoCo",
+        "JUnit5",
+        "Mockito",
         "RestDocs",
-        "Docker",
+        "JMeter",
         "MySQL 8.3.0",
-        "JMeter"
+        "Docker",
+        "Github Actions"
       ],
       "trouble": [
         [

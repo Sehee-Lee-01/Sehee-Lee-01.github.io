@@ -12,7 +12,7 @@ function Contact() {
     return (
       <li key={item.id}>
         <ul className="card-list">
-          <li className="skill-category">{item.name}</li>
+          <li className="skill-category \">{item.name}</li>
           {skills}
         </ul>
       </li>
@@ -40,7 +40,8 @@ function Contact() {
       <div id="contact" className="bookmark" />
       <div className="contact">
         <div id="info-box">
-          <h1>이 세희</h1>
+          <h1 className="name">이 세희</h1>
+          <span className="middle-title"> 백엔드 엔지니어</span>
           <p id="introduce">
             <span>
               안정적인 서비스를 위해 <b>테스트 작성</b>을 중요시하며,{' '}

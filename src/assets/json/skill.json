@@ -28,7 +28,16 @@
     {
       "id": 5,
       "name": "ETC",
-      "skill": ["LINUX", "C/C++", "Python", "Git", "Figma", "MCU"]
+      "skill": [
+        "LINUX",
+        "C/C++",
+        "Git",
+        "Figma",
+        "MCU",
+        "Android",
+        "Flutter",
+        "Unity"
+      ]
     }
   ]
 }
