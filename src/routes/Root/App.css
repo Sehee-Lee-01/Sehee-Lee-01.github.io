@@ -10,7 +10,6 @@ b {
     color: #6495ed;
 }
 
-
 h1,
 h2,
 .middle-title {
@@ -27,7 +26,7 @@ h3 {
 }
 
 h2 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 h3 {
@@ -52,14 +51,14 @@ p>b {
 
 .inline-list>li {
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .inline-card {
     background-color: white;
     border: solid 2px #6495ed;
     border-radius: 10px;
-    padding: 15px;
+    padding: 13px;
 }
 
 
@@ -67,7 +66,6 @@ p>b {
     margin: 0 auto;
     width: 100%;
     text-align: center;
-    margin-bottom: 10px;
 }
 
 .mini-list>li {
@@ -80,7 +78,7 @@ p>b {
 .mini-card {
     background-color: white;
     width: 360px;
-    height: 45px;
+    height: 40px;
     border: solid 2px #6495ed;
     border-radius: 10px;
     padding: 15px;
@@ -89,13 +87,12 @@ p>b {
 
 .date {
     color: #6495ed;
-    font-size: small;
     float: right;
     margin-bottom: 4px;
 }
 
 .mul-line-list {
-    margin: 10px 0px 5px 20px;
+    margin: 5px 0px 5px 20px;
 }
 
 .list-title {
@@ -107,7 +104,7 @@ p>b {
     list-style-position: inside;
     list-style-type: square;
     text-indent: -20px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .title {
@@ -121,5 +118,5 @@ p>b {
 .agency {
     display: block;
     font-size: small;
-    margin-top: 10px;
+    margin-top: 5px;
 }

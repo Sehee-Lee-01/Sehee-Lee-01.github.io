@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
+import { SiGithub } from 'react-icons/si';
+import { GrDeploy } from 'react-icons/gr';
 
 const { useState } = React;
 
@@ -17,6 +19,7 @@ interface ProjectInfo {
   trouble: string[][];
   result?: string;
   url: string;
+  deployUrl?: string;
 }
 
 type projectCardProps = {
@@ -30,13 +33,14 @@ function ProjectCard({ projectProps }: projectCardProps) {
     summary,
     date,
     scale,
-    process,
     role,
     keyword,
     category,
-    trouble,
+    process = [],
+    trouble = [],
     result = '',
-    url,
+    url = '',
+    deployUrl,
   } = projectProps;
   const [visibleSum, setVisibleSum] = useState(true);
   const keywordList = keyword.map((item) => <li key={item}>{item}</li>);
@@ -65,7 +69,6 @@ function ProjectCard({ projectProps }: projectCardProps) {
       <span className="trouble-detail">{item[1]}</span>
     </>
   ));
-
   return (
     <div
       className="inline-card project-card"
@@ -80,9 +83,19 @@ function ProjectCard({ projectProps }: projectCardProps) {
         <div className="scale">{scale}</div>
       </div>
       {result === '' ? <br /> : <p className="result">{result}</p>}
-      <h3 className="title">
-        <a href={url}>{name}🔗</a>
-      </h3>
+      <h3 className="title">{name}</h3>
+      <ul className="url-list">
+        {deployUrl == null ? null : (
+          <li className="url-list-element">
+            <GrDeploy className="url-icon" />
+            <a href={deployUrl}>{deployUrl}</a>
+          </li>
+        )}
+        <li>
+          <SiGithub className="url-icon" />
+          <a href={url}>{url}</a>
+        </li>
+      </ul>
       <div className="summary">{summary}</div>
       <ul className="card-list">{keywordList}</ul>
       <br />

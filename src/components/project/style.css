@@ -11,12 +11,27 @@
     cursor: pointer;
 }
 
-.projects a {
-    color: dodgerblue;
-    text-decoration: none;
+.projects ul {
+    list-style: none;
 }
 
-.projects a:hover {
+.url-list {
+    list-style: none;
+}
+
+.url-icon {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.projects ul li a {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    font-size: small;
+}
+
+.projects ul li a:hover {
     color: #aaa;
 }
 
@@ -45,7 +60,7 @@
 }
 
 .card-list {
-    margin: 5px 0px;
+    margin: 3px 0px;
     font-size: small;
 }
 
@@ -55,8 +70,8 @@
     background-color: aliceblue;
     color: dodgerblue;
     border-radius: 5px;
-    padding: 3px;
-    margin: 2px;
+    padding: 2px;
+    margin: 3px;
 }
 
 .role {
@@ -73,7 +88,7 @@
 
 .trouble-list>li:not(:first-child),
 .role-list>li {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .role-title {

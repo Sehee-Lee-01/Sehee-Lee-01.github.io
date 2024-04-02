@@ -67,7 +67,8 @@
         ]
       ],
       "result": "🚀 데브코스 최종 프로젝트",
-      "url": "https://github.com/side-peek/sidepeek_backend"
+      "url": "https://github.com/side-peek/sidepeek_backend",
+      "deployUrl": "https://www.sidepeek.site/"
     },
     {
       "id": 4,
