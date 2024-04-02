@@ -104,12 +104,12 @@ function ProjectCard({ projectProps }: projectCardProps) {
 
       {visibleSum ? null : (
         <>
-          <div className="role list-title">👣 진행 과정</div>
-          <ul className="mul-line-list role-list">{processList}</ul>
           <div className="role list-title">🧩기능 개발</div>
           <ul className="mul-line-list role-list">{roleList}</ul>
           <div className="trouble list-title">🚨문제 해결 및 개선</div>
           <ul className="mul-line-list trouble-list">{troubleList}</ul>
+          <div className="role list-title">👣 기타 사항</div>
+          <ul className="mul-line-list role-list">{processList}</ul>
         </>
       )}
     </div>

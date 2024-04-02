@@ -32,4 +32,5 @@ export interface EducationInfo {
 export interface MajorInfo {
   type: string;
   name: string;
+  date: string;
 }

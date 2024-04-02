@@ -6,3 +6,14 @@
     display: inline-block;
     width: 80px;
 }
+
+.major-name {
+    display: inline-block;
+    width: 280px;
+}
+
+.major-date {
+    display: inline-block;
+    font-size: small;
+    color: gray;
+}

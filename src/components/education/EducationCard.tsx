@@ -11,7 +11,8 @@ function EducationCard({ educationProps }: educationProps) {
   const majors = major.map((item) => (
     <li key={item.type}>
       <b className="major-type">{item.type}</b>
-      <span>{item.name}</span>
+      <span className="major-name">{item.name}</span>
+      <span className="major-date">{item.date}</span>
     </li>
   ));
   return (
