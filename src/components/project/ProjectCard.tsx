@@ -78,8 +78,8 @@ function ProjectCard({ projectProps }: projectCardProps) {
       onClick={() => setVisibleSum(!visibleSum)}
     >
       <div className="float-left">
-        <ul className="card-list category">{categoryList}</ul>
         <div className="date">{date}</div>
+        <ul className="card-list category">{categoryList}</ul>
         <div className="scale">{scale}</div>
       </div>
       {result === '' ? <br /> : <p className="result">{result}</p>}

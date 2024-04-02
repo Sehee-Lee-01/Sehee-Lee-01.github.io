@@ -30,7 +30,7 @@
           "개발용/운영용 환경 서버에 발생하는 예외를 즉각적으로 인지하기 위해 Sentry와 Slack을 서버에 연동하는 기능을 구현했습니다."
         ]
       ],
-      "category": ["Web", "Backend"],
+      "category": ["Backend"],
       "keyword": [
         "Java 17",
         "Spring Boot 3.2.2",
@@ -100,7 +100,7 @@
           "코디 게시글을 생성, 조회, 수정, 삭제하는 API를 구현했습니다. 코디 게시글을 저장할 때에는 기상청 단기예보 API를 이용해 그날의 일교차 데이터를 함께 저장했습니다. 게시글의 일교차 데이터와 오늘의 날씨 정보를 연관지어 현재 기온에 적합한 코디 게시글을 조회할 수 있도록 구현했습니다."
         ]
       ],
-      "category": ["Web", "Backend"],
+      "category": ["Backend"],
       "keyword": [
         "Java 17",
         "Spring Boot 3.2.2",
@@ -139,7 +139,7 @@
       "summary": "차박 중 차량 외부 외부인/야생동물(이하, 대상)의 접근, 차량 내부 유해가스 위험 상황을 감지하여 사용자에게 알려주는 서비스 입니다. 사용자가 차박 중 자주 일어나는 위험 상황으로부터 신속하게 대응할 수 있도록 도와줌으로써, 안전한 차박을 제공합니다.",
       "date": "2022.06 ~ 2022.12(6개월)",
       "scale": "임베디드 SW 학술 동아리원 4명",
-      "category": ["IoT", "Cloud", "Mobile"],
+      "category": ["Embedded", "Cloud", "Mobile", "Backend"],
       "keyword": [
         "Flutter",
         "Flask",
