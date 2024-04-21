@@ -27,4 +27,8 @@ export interface ActivityInfo {
   date: string;
   agency: string;
   work: string[];
+  urls: {
+    url: string;
+    icon: string;
+  }[];
 }

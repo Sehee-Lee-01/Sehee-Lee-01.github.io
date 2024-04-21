@@ -6,8 +6,14 @@
       "agency": "SQL 튜닝 스터디",
       "date": "2024.04.06 ~ 2024.06.29(진행중)",
       "work": [
-        "기본적인 API를 구현하는 방법을 넘어서 API를 더 발전시키기 위해서는 SQL 튜닝이 지식이 필요하다고 생각하여 참여하게 되었습니다.",
-        "'친절한 SQL 튜닝' 도서를 기반으로 학습을 진행하고 있습니다."
+        "'친절한 SQL 튜닝' 도서를 기반으로, Oracle DBMS를 중심으로 주 1회 학습한 내용을 정리하여 발표하고 있습니다.",
+        "기본적인 API를 구현하는 방법을 넘어서 API를 더 발전시키기 위해서는 SQL 튜닝이 지식이 필요하다고 생각하여 참여하게 되었습니다."
+      ],
+      "urls": [
+        {
+          "url": "https://github.com/Learning-Is-Vital-In-Development/24-sql-tuning",
+          "icon": "SiGithub"
+        }
       ]
     },
     {
@@ -22,6 +28,16 @@
         "Short-URL 서비스를 페어프로그래밍으로 구현하면서 Redirect와 Forward의 차이점을 이해하고, URL 단축 알고리즘에 대해 접해보고 이해할 수 있었습니다.",
         "'Spring Boot와 Spring Framework: DataSource 설정으로 알아보는 Auto Configuration 원리'를 주제로 블로그에 탐구 내용을 정리 후, 발표를 진행했습니다.",
         "'자바 알고리즘 인터뷰 with 코틀린' 도서를 기반으로 Java 알고리즘 스터디에 참여했습니다. '이진 검색(Binary Search)' 파트 스터디장을 맡아 이진 검색에 대한 개념과 문제를 팀원들에게 공유했습니다."
+      ],
+      "urls": [
+        {
+          "url": "https://github.com/prgrms-be-devcourse/java-library-management/tree/Sehee-Lee-01",
+          "icon": "SiGithub"
+        },
+        {
+          "url": "https://youtu.be/FuLGL0rrnpA?si=Fof0JRb_NXxduFRZ",
+          "icon": "SiYoutube"
+        }
       ]
     },
     {
@@ -32,6 +48,16 @@
       "work": [
         "주 1회 이상 블로그 포스팅을 통해 총 4개 기술 블로그를 포스팅했습니다.",
         "'우리는 NAVER를 접속할 때 도메인 네임만 알고 있다.'라는 제목의 글을 작성하고 ARP 개념을 중심으로 발표했습니다. 이를 준비하면서 MAC 주소와 IP 주소의 차이점을 더욱 이해할 수 있었습니다."
+      ],
+      "urls": [
+        {
+          "url": "https://github.com/Meet-Coder-Study/posting-review/tree/master/SeheeLee01",
+          "icon": "SiGithub"
+        },
+        {
+          "url": "https://medium.com/@Hailey24/우리는-naver를-접속할-때-도메인-네임-www-naver-com-만-알고-있다-cf3d294c911c",
+          "icon": "SiMedium"
+        }
       ]
     },
     {
@@ -42,6 +68,16 @@
       "work": [
         "한국장학재단 동계 온라인 재능봉사 캠프(풍양초등학교, 엔트리 교육) 부팀장 역할로 참여했습니다.",
         " IoT 서비스를 중심으로 프로젝트 및 스터디를 진행하며 제 16회 공개 SW 개발자 대회(사회 부문), 제 20회 임베디드 SW 경진대회(자동차/모빌리티 부문)에 참여했습니다."
+      ],
+      "urls": [
+        {
+          "url": "https://youtu.be/hasLYYplS_g?si=_ArrIovxzcrUB2iF",
+          "icon": "SiYoutube"
+        },
+        {
+          "url": "https://youtu.be/96_i5zxQGfc?si=giSsD4pj9-7I9kDw",
+          "icon": "SiYoutube"
+        }
       ]
     }
   ]

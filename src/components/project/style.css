@@ -11,30 +11,6 @@
     cursor: pointer;
 }
 
-.projects ul {
-    list-style: none;
-}
-
-.url-list {
-    list-style: none;
-}
-
-.url-icon {
-    width: 15px;
-    margin-right: 5px;
-}
-
-.projects ul li a {
-    text-decoration: none;
-    display: inline-block;
-    vertical-align: top;
-    font-size: small;
-}
-
-.projects ul li a:hover {
-    color: #aaa;
-}
-
 .description {
     text-align: center;
     width: 100%;
@@ -89,10 +65,6 @@
 .trouble-list>li:not(:first-child),
 .role-list>li {
     margin-top: 5px;
-}
-
-.role-title {
-    color: dodgerblue;
 }
 
 .trouble-title {

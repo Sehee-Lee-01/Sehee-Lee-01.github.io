@@ -14,8 +14,8 @@ interface ProjectInfo {
   scale: string;
   keyword: string[];
   category: string[];
-  process: string[][];
-  role: string[][];
+  process: string[];
+  role: string[];
   trouble: string[][];
   result?: string;
   url: string;
@@ -46,20 +46,14 @@ function ProjectCard({ projectProps }: projectCardProps) {
   const keywordList = keyword.map((item) => <li key={item}>{item}</li>);
   const categoryList = category.map((item) => <li key={item}> {item}</li>);
   const processList = process.map((item) => (
-    <>
-      <li key={item[0]}>
-        <span className="role-title">{item[0]}</span>
-      </li>
-      <span className="role-detail">{item[1]}</span>
-    </>
+    <li key={item}>
+      <span className="process-title">{item}</span>
+    </li>
   ));
   const roleList = role.map((item) => (
-    <>
-      <li key={item[0]}>
-        <span className="role-title">{item[0]}</span>
-      </li>
-      <span className="role-detail">{item[1]}</span>
-    </>
+    <li key={item}>
+      <span className="role-title">{item}</span>
+    </li>
   ));
   const troubleList = trouble.map((item) => (
     <>
@@ -119,10 +113,10 @@ function ProjectCard({ projectProps }: projectCardProps) {
         <>
           <div className="role list-title">🧩기능 개발</div>
           <ul className="mul-line-list role-list">{roleList}</ul>
-          <div className="trouble list-title">🚨문제 해결 및 개선</div>
-          <ul className="mul-line-list trouble-list">{troubleList}</ul>
           <div className="role list-title">👣 기타 사항</div>
           <ul className="mul-line-list role-list">{processList}</ul>
+          <div className="trouble list-title">🚨문제 해결 및 개선</div>
+          <ul className="mul-line-list trouble-list">{troubleList}</ul>
         </>
       )}
     </div>
