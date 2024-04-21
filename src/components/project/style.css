@@ -55,11 +55,11 @@
 }
 
 .trouble {
-    color: salmon;
+    color: brown;
 }
 
 .trouble-list li::marker {
-    color: salmon;
+    color: brown;
 }
 
 .trouble-list>li:not(:first-child),
@@ -68,7 +68,7 @@
 }
 
 .trouble-title {
-    color: salmon;
+    color: brown;
 }
 
 .role-detail,
